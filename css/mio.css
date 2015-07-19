@@ -1,0 +1,531 @@
+@font-face{
+  font-family:"Nexa Bold";
+  src: local("Nexa_Bold") format ('opentype');
+  src: url("../fonts/Nexa_Bold.otf");
+}
+
+@font-face{
+  font-family:"Raleway Bold";
+  src: local("Raleway_Bold") format ('truetype');
+  src: url("../fonts/Raleway_Bold.ttf");
+}
+
+@font-face{
+  font-family:"Nexa Light";
+  src: local("Nexa_Light") format ('opentype');
+  src: url("../fonts/Nexa_Light.otf");
+}
+
+@font-face{
+  font-family:"Raleway Regular";
+  src: local("Raleway_Regular") format ('truetype');
+  src: url("../fonts/Raleway_Regular.ttf");
+}
+
+@font-face{
+  font-family:"Raleway Light";
+  src: local("Raleway_Light") format ('truetype');
+  src: url("../fonts/Raleway_Regular.ttf");
+}
+
+@font-face{
+  font-family:"Raleway ExtraLight";
+  src: local("Raleway_ExtraLight") format ('truetype');
+  src: url("../fonts/Raleway_ExtraLight.ttf");
+}
+
+@font-face{
+  font-family:"Raleway Medium";
+  src: local("Raleway_Medium") format ('truetype');
+  src: url("../fonts/Raleway_Medium.ttf");
+}
+
+@font-face{
+  font-family:"Raleway Semibold";
+  src: local("Raleway_Semibold") format ('truetype');
+  src: url("../fonts/Raleway_Semibold.ttf");
+}
+
+@font-face{
+  font-family:"Lato BLack";
+  src: local("Lato_Black") format ('truetype');
+  src: url("../fonts/Lato_Black.ttf");
+}
+
+@font-face{
+  font-family:"Lato LightItalic";
+  src: local("Lato_LightItalic") format ('truetype');
+  src: url("../fonts/Lato_LightItalic.ttf");
+}
+
+@font-face{
+  font-family:"OpenSans Semibold";
+  src: local("OpenSans_Semibold") format ('truetype');
+  src: url("../fonts/OpenSans_Semibold.ttf");
+}
+
+@font-face{
+  font-family:"Lato Hairline";
+  src: local("Lato_Hairline") format ('truetype');
+  src: url("../fonts/Lato_Hairline.ttf");
+}
+
+.nexal{
+  font-family:"Nexa Light";
+  color: #FFF;
+}
+
+.ralewayb{
+  font-family:"Raleway Bold";
+  color: #FFF;
+}
+
+.nexab{
+  font-family:"Nexa Bold";
+  color: #FFF;
+}
+
+.ralewayr{
+  font-family:"Raleway Regular";
+  color: #FFF;
+}
+
+.ralewayl{
+  font-family:"Raleway Light";
+  color: #FFF;
+}
+
+.ralewayel{
+  font-family:"Raleway ExtraLight";
+  color: #000;
+}
+
+.ralewaym{
+  font-family:"Raleway Medium";
+  color: #000;
+}
+
+.ralewaysb{
+  font-family:"Raleway Semibold";
+  color: #000;
+}
+
+.latob{
+  font-family:"Lato Black";
+  color: #FFF;
+}
+
+.latoli{
+  font-family:"Lato LightItalic";
+  color: #000;
+}
+
+.opensb{
+  font-family:"OpenSans Semibold";
+  color: #FFF;
+}
+
+.dimensione34 {
+  font-size: 34px;
+}
+
+.dimensione24 {
+  font-size: 24px;
+}
+
+.dimensione14 {
+  font-size: 14px;
+}
+
+.dimensione30 {
+  font-size: 30px;
+}
+
+.dimensione20 {
+  font-size: 20px;
+}
+
+.container-fluid {
+  padding-right: 0px;
+  padding-left: 0px;
+}
+
+.row {
+  margin-right: 0px;
+  margin-left: 0px;
+}
+
+.verde{
+ background-color: #1abc9c;
+  margin-right: 0px;
+  margin-left: 0px;
+  padding-right: 0px;
+  padding-left: 0px;
+}
+
+.verde1{
+ background-color: #2ecc71;
+  margin-right: 0px;
+  margin-left: 0px;
+  padding-right: 0px;
+  padding-left: 0px;
+}
+
+.verdetxt{
+ color: #1abc9c;
+}
+
+.verdetxtb{
+ color: #1abc9c;
+ font-family:"Lato Hairline";
+}
+
+.verde1txt{
+ color: #2ecc71;
+ font-family:"Lato Hairline";
+}
+
+.blutxt{
+ color: #5cace2;
+ font-family:"Lato Hairline";
+}
+
+.violatxt{
+ color: #9b59b6;
+ font-family:"Lato Hairline";
+}
+
+.darkverde{
+ color: #0d6c59;
+}
+
+.darkverde1{
+ color: #1f7845;
+}
+
+.darkblu{
+ color: #2c5d7e;
+}
+
+.darkviola{
+ color: #653e76;
+}
+
+.grigio{
+ background-color: #eeeeee;
+  margin-right: 0px;
+  margin-left: 0px;
+  padding-right: 0px;
+  padding-left: 0px;
+}
+
+.azzurro{
+ background-color: #5cace2;
+  margin-right: 0px;
+  margin-left: 0px;
+  padding-right: 0px;
+  padding-left: 0px;
+}
+
+.rosso{
+ background-color: #e74c3c;
+  margin-right: 0px;
+  margin-left: 0px;
+  padding-right: 0px;
+  padding-left: 0px;
+}
+.bottone {
+  font-family:"Raleway Light";
+  color: #FFF;
+  border-radius: 53px;
+  border: solid 3px #FFF;
+  background-color: #1abc9c;
+  height: 45px;
+  width: 150px;
+}
+
+.bottone1 {
+  font-family:"Raleway Light";
+  color: #FFF;
+  border-radius: 53px;
+  border: solid 3px #FFF;
+  background-color: #2ecc71;
+  height: 45px;
+  width: 150px;
+}
+
+.bottone2 {
+  font-family:"Raleway Light";
+  color: #FFF;
+  border-radius: 53px;
+  border: solid 3px #FFF;
+  background-color: #5cace2;
+  height: 45px;
+  width: 150px;
+}
+
+.bottone3 {
+  font-family:"Raleway Light";
+  color: #FFF;
+  border-radius: 53px;
+  border: solid 3px #FFF;
+  background-color: #e74c3c;
+  height: 45px;
+  width: 150px;
+}
+
+.bottone4 {
+  color: #FFF;
+  border: 0px;
+  background-color: #1abc9c;
+  height: 50px;
+  width: 450px;
+}
+
+.bottone5 {
+  color: #5cace2;
+  background-color: #34495e;
+  height: 50px;
+  width: 50px;
+  padding: 12px;
+}
+
+
+.scuro {
+ background-color: #34495e;
+  margin-right: 0px;
+  margin-left: 0px;
+  padding-right: 0px;
+  padding-left: 0px;
+}
+
+.scuro1 {
+ background-color: #2c3e50;
+  margin-right: 0px;
+  margin-left: 0px;
+  padding-right: 0px;
+  padding-left: 0px;
+}
+
+.bottone:hover {
+  font-family:"Raleway Light";
+  color: #1abc9c;
+  background-color: #FFF;
+  width: 150px;
+}
+
+.bottone1:hover {
+  font-family:"Raleway Light";
+  color: #2ecc71;
+  background-color: #FFF;
+  width: 150px;
+}
+
+.bottone2:hover {
+  font-family:"Raleway Light";
+  color: #5cace2;
+  background-color: #FFF;
+  width: 150px;
+}
+
+.bottone3:hover {
+  font-family:"Raleway Light";
+  color: #e74c3c;
+  background-color: #FFF;
+  width: 150px;
+}
+
+.fa-twitter:hover {
+  color: #52d2ff;
+}
+
+.fa-facebook:hover {
+  color: #345ad2;
+}
+
+.fa-google-plus:hover {
+  color: #ef4837;
+}
+
+.fa-dribbble:hover {
+  color: #f689c2;
+}
+
+.fa-linkedin:hover {
+  color: #59caff;
+}
+
+.fa-weibo:hover {
+  color: #dc2773;
+}
+
+.fa-instagram:hover {
+  color: #bc997f;
+}
+
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+  font-family:"OpenSans Semibold";
+  color: #1abc9c;
+  background-color: #34495e;
+}
+
+.navbar-default {
+font-family:"OpenSans Semibold";
+background-color: #34495e;  
+}
+
+.navbar-default .navbar-nav > li > a {
+  color: #FFF;
+  border-radius: 53px;
+  border: solid 2px #1abc9c;
+ }
+ 
+ .navbar {
+  min-height: 50px;
+  margin-bottom: 0px;
+  border: 0px solid transparent;
+  border-radius: 0px;
+}
+
+.cheat1 {
+  width:110px;
+}
+
+.cheat2 {
+  width:40px;
+}
+
+.soprat {
+  position:relative;
+  top:-230px;
+  left:20px;
+}
+
+.soprap {
+  position:relative;
+  top:-220px;
+  left:20px;
+}
+
+.soprai {
+  position:relative;
+  top:-200px;
+  left:20px;
+}
+
+.sopraf {
+  position:relative;
+  top:25px;
+}
+
+.soprac {
+  position:relative;
+  top:-654px;
+  right:10px;
+}
+
+.soprac1 {
+  position:relative;
+  top:-1310px;
+  right:10px;
+}
+
+.box {
+  height: 310px;
+  width: 951.500px;
+}
+
+.viola{
+ background-color: #a469bd;
+  margin-right: 0px;
+  margin-left: 0px;
+  padding-right: 0px;
+  padding-left: 0px;
+}
+
+.box2 {
+  height: 40px;
+}
+
+.box3 {
+  height: 150px;
+}
+
+.box4 {
+  position:relative;
+  z-index:100;
+  height: 52px;
+  width: 700px;
+}
+
+::-webkit-input-placeholder { /* WebKit browsers */
+    color:    #1abc9c;
+    padding-left:10px;
+}
+
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+    color:    #1abc9c;
+    opacity:  1;
+    padding-left:10px;
+}
+
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+    color:    #1abc9c;
+    opacity:  1;
+    padding-left:10px;
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10+ */
+    color:    #1abc9c;
+    padding-left:10px;
+}
+
+.placebianco::-webkit-input-placeholder { /* WebKit browsers */
+    color:    #FFF;
+    background:  #34495e;
+    padding-left:10px;
+}
+
+.placebianco:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+    color:    #FFF;
+    background:  #34495e;
+    opacity:  1;
+    padding-left:10px;
+}
+
+.placebianco::-moz-placeholder { /* Mozilla Firefox 19+ */
+    color:    #FFF;
+    background:  #34495e;
+    opacity:  1;
+    padding-left:10px;
+}
+
+.placebianco:-ms-input-placeholder { /* Internet Explorer 10+ */
+    color:    #FFF;
+    background:  #34495e;
+    padding-left:10px;
+}
+
+input.placebianco {
+    line-height: 52px;
+    text-align:center;
+}
+
+.bordo {
+    border-bottom-width: 0px;
+    border-left-width: 0px;
+    border-top-width: 0px;
+    border-right-width: 0px;
+}
+
+#library {
+    height: 250px;
+    width: 300px;
+}
+
+#library:hover {
+    content: url(../images/hover.png);
+    height: 250px;
+    width: 300px;
+}
