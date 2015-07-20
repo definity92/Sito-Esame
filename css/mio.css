@@ -1,3 +1,8 @@
+/*@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@*/
+
+/*Inizio chiamata ai Font*/
+
 @font-face{
   font-family:"Nexa Bold";
   src: local("Nexa_Bold") format ('opentype');
@@ -70,6 +75,13 @@
   src: url("../fonts/Lato_Hairline.ttf");
 }
 
+/*Fine chiamata ai font*/
+
+/*@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@*/
+
+/*Inizio classi per utilizzare i Font ([nome famiglia del font]x dove x è l'abbreviazione del nome del font in particolare che si sta usando)*/
+
 .nexal{
   font-family:"Nexa Light";
   color: #FFF;
@@ -125,6 +137,13 @@
   color: #FFF;
 }
 
+/*Fine classi per utilizzare i Font*/
+
+/*@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@*/
+
+/*Inizio classi con dimensione font custom*/
+
 .dimensione34 {
   font-size: 34px;
 }
@@ -145,6 +164,13 @@
   font-size: 20px;
 }
 
+/*Fine classi con dimensione font custom*/
+
+/*@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@*/
+
+/*Inizio classi associate ai div (row, container)*/
+
 .container-fluid {
   padding-right: 0px;
   padding-left: 0px;
@@ -154,6 +180,22 @@
   margin-right: 0px;
   margin-left: 0px;
 }
+  
+  /*Dimensioni ridotte delle colonne tra i box della sezione pricing*/
+.cheat1 {
+  width:110px;
+}
+
+.cheat2 {
+  width:40px;
+}
+
+/*Fine classi associate ai div (row, container)*/
+
+/*@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@*/
+
+/*Inizio classi con modifica colore per i container-fluid*/
 
 .verde{
  background-color: #1abc9c;
@@ -169,46 +211,6 @@
   margin-left: 0px;
   padding-right: 0px;
   padding-left: 0px;
-}
-
-.verdetxt{
- color: #1abc9c;
-}
-
-.verdetxtb{
- color: #1abc9c;
- font-family:"Lato Hairline";
-}
-
-.verde1txt{
- color: #2ecc71;
- font-family:"Lato Hairline";
-}
-
-.blutxt{
- color: #5cace2;
- font-family:"Lato Hairline";
-}
-
-.violatxt{
- color: #9b59b6;
- font-family:"Lato Hairline";
-}
-
-.darkverde{
- color: #0d6c59;
-}
-
-.darkverde1{
- color: #1f7845;
-}
-
-.darkblu{
- color: #2c5d7e;
-}
-
-.darkviola{
- color: #653e76;
 }
 
 .grigio{
@@ -234,62 +236,6 @@
   padding-right: 0px;
   padding-left: 0px;
 }
-.bottone {
-  font-family:"Raleway Light";
-  color: #FFF;
-  border-radius: 53px;
-  border: solid 3px #FFF;
-  background-color: #1abc9c;
-  height: 45px;
-  width: 150px;
-}
-
-.bottone1 {
-  font-family:"Raleway Light";
-  color: #FFF;
-  border-radius: 53px;
-  border: solid 3px #FFF;
-  background-color: #2ecc71;
-  height: 45px;
-  width: 150px;
-}
-
-.bottone2 {
-  font-family:"Raleway Light";
-  color: #FFF;
-  border-radius: 53px;
-  border: solid 3px #FFF;
-  background-color: #5cace2;
-  height: 45px;
-  width: 150px;
-}
-
-.bottone3 {
-  font-family:"Raleway Light";
-  color: #FFF;
-  border-radius: 53px;
-  border: solid 3px #FFF;
-  background-color: #e74c3c;
-  height: 45px;
-  width: 150px;
-}
-
-.bottone4 {
-  color: #FFF;
-  border: 0px;
-  background-color: #1abc9c;
-  height: 50px;
-  width: 450px;
-}
-
-.bottone5 {
-  color: #5cace2;
-  background-color: #34495e;
-  height: 50px;
-  width: 50px;
-  padding: 12px;
-}
-
 
 .scuro {
  background-color: #34495e;
@@ -306,6 +252,139 @@
   padding-right: 0px;
   padding-left: 0px;
 }
+
+/*Fine classi con modifica colore per i container-fluid*/
+
+/*@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@*/
+
+/*Inizio classi con modifica colore per i testi & sito*/
+
+.verdetxt{
+ color: #1abc9c;
+}
+
+.verdetxtb{
+ color: #1abc9c;
+ font-family:"Lato Hairline";
+}
+
+.verde1txt{
+ color: #2ecc71;
+ font-family:"Lato Hairline";
+}
+
+.blutxt{
+ color: #5cace2;
+ font-family:"Lato Hairline";
+}
+
+.violatxt{
+ color: #9b59b6;
+ font-family:"Lato Hairline";
+}
+
+  /*Inizio colore delle ombre dei box della sezione pricing*/
+.darkverde{
+ color: #0d6c59;
+}
+
+.darkverde1{
+ color: #1f7845;
+}
+
+.darkblu{
+ color: #2c5d7e;
+}
+
+.darkviola{
+ color: #653e76;
+}
+  /*Fine colore delle ombre dei box della sezionepricing*/
+  /*Colore di un box nella sezione Team*/
+.viola{
+ background-color: #a469bd;
+  margin-right: 0px;
+  margin-left: 0px;
+  padding-right: 0px;
+  padding-left: 0px;
+}
+
+/*Fine classi con modifica colore per i testi e il sito*/
+
+/*@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@*/
+
+/*Inizio classi per i bottoni*/
+  
+  /*LEARN MORE*/
+.bottone {
+  font-family:"Raleway Light";
+  color: #FFF;
+  border-radius: 53px;
+  border: solid 3px #FFF;
+  background-color: #1abc9c;
+  height: 45px;
+  width: 150px;
+}
+
+  /*ORDER NOW verde*/
+.bottone1 {
+  font-family:"Raleway Light";
+  color: #FFF;
+  border-radius: 53px;
+  border: solid 3px #FFF;
+  background-color: #2ecc71;
+  height: 45px;
+  width: 150px;
+}
+
+ /*ORDER NOW blu*/
+.bottone2 {
+  font-family:"Raleway Light";
+  color: #FFF;
+  border-radius: 53px;
+  border: solid 3px #FFF;
+  background-color: #5cace2;
+  height: 45px;
+  width: 150px;
+}
+
+  /*ORDER NOW rosso*/
+.bottone3 {
+  font-family:"Raleway Light";
+  color: #FFF;
+  border-radius: 53px;
+  border: solid 3px #FFF;
+  background-color: #e74c3c;
+  height: 45px;
+  width: 150px;
+}
+  
+  /*Bottone sotto i placeholder sezione contact us*/
+.bottone4 {
+  color: #FFF;
+  border: 0px;
+  background-color: #1abc9c;
+  height: 50px;
+  width: 450px;
+}
+
+ /*pulsanti slider*/
+.bottone5 {
+  color: #5cace2;
+  background-color: #34495e;
+  height: 50px;
+  width: 50px;
+  padding: 12px;
+}
+
+/*Fine classi per i bottoni*/
+
+/*@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@*/
+
+/*Inizio classi per l'hoover dei bottoni*/
 
 .bottone:hover {
   font-family:"Raleway Light";
@@ -335,6 +414,13 @@
   width: 150px;
 }
 
+/*Fine classi per l'hoover dei bottoni*/
+
+/*@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@*/
+
+/*Inizio classi per l'hoover delle awesome-icons*/
+
 .fa-twitter:hover {
   color: #52d2ff;
 }
@@ -363,24 +449,35 @@
   color: #bc997f;
 }
 
+/*Fine classi per l'hoover delle awesome-icons*/
+
+/*@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@*/
+
+/*Inizio classi per la navbar*/
+  
+  /*Hoover dei pulsanti sulla navbar*/
 .navbar-default .navbar-nav > li > a:hover,
 .navbar-default .navbar-nav > li > a:focus {
   font-family:"OpenSans Semibold";
   color: #1abc9c;
   background-color: #34495e;
 }
-
+  
+  /*Font & colore della navbar*/ 
 .navbar-default {
 font-family:"OpenSans Semibold";
 background-color: #34495e;  
 }
 
+  /*Stile dei pulsanti sulla navbar*/
 .navbar-default .navbar-nav > li > a {
   color: #FFF;
   border-radius: 53px;
   border: solid 2px #1abc9c;
  }
- 
+  
+  /*Dimensioni della navbar*/ 
  .navbar {
   min-height: 50px;
   margin-bottom: 0px;
@@ -388,13 +485,12 @@ background-color: #34495e;
   border-radius: 0px;
 }
 
-.cheat1 {
-  width:110px;
-}
+/*Fine classi per la navbar*/
 
-.cheat2 {
-  width:40px;
-}
+/*@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@*/
+
+/*Inizio classi per il posizionamento asse z degli oggetti ([sopra/sotto]x dove x sta per l'oggetto sul quale si sta al di sopra/sotto)*/
 
 .soprat {
   position:relative;
@@ -431,19 +527,13 @@ background-color: #34495e;
   right:10px;
 }
 
-.box {
-  height: 310px;
-  width: 951.500px;
-}
+/*Fine classi per il posizionamento asse z degli oggetti (sopra/sottox dove x sta per l'oggetto sul quale si sta al di sopra/sotto)*/
 
-.viola{
- background-color: #a469bd;
-  margin-right: 0px;
-  margin-left: 0px;
-  padding-right: 0px;
-  padding-left: 0px;
-}
+/*@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@*/
 
+/*Inizio classi per la modifica dei placeholder*/
+    /*Inizio dimensioni del placeholder*/
 .box2 {
   height: 40px;
 }
@@ -458,7 +548,8 @@ background-color: #34495e;
   height: 52px;
   width: 700px;
 }
-
+  /*Fine dimensioni del placeholder*/
+  /*Inizio colore del placeholder*/
 ::-webkit-input-placeholder { /* WebKit browsers */
     color:    #1abc9c;
     padding-left:10px;
@@ -511,13 +602,21 @@ input.placebianco {
     line-height: 52px;
     text-align:center;
 }
-
+    /*Fine colore del placeholder*/
+    /*Bordo del placeholder*/
 .bordo {
     border-bottom-width: 0px;
     border-left-width: 0px;
     border-top-width: 0px;
     border-right-width: 0px;
 }
+  /*Fine bordo del placeholder*/
+/*Fine classi per la modifica dei placeholder*/
+
+/*@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@*/
+
+/*Inizio id per lo slider*/
 
 #library {
     height: 250px;
@@ -529,3 +628,5 @@ input.placebianco {
     height: 250px;
     width: 300px;
 }
+
+/*Fine id per lo slider*/
